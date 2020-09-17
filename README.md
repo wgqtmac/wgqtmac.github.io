@@ -1,2 +1,0 @@
-# wgqtmac.github.io
-Homepage
