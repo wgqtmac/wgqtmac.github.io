@@ -30,12 +30,11 @@ Figures from the corresponding papers or author-maintained project/code pages, u
 - Figure: Method overview
 - [Original asset or PDF](https://vlaworld.github.io/static/images/overview.png)
 
-## getok-overview.webp
+## GETok.png
 
 - Paper: Grounding Everything in Tokens for Multimodal Large Language Models
 - [Source](https://getokpage.github.io/)
-- Figure: Figure 1, overview of spatial referencing
-- [Original asset or PDF](https://getokpage.github.io/static/images/intro.png)
+- Figure: GETok overview, supplied by the homepage owner; replaces `getok-overview.webp` as the homepage thumbnail.
 
 ## occgen-overview.webp
 
