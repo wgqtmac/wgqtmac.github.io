@@ -51,6 +51,12 @@ summary { color: var(--blue); cursor: pointer; font-size: 13px; width: fit-conte
 .publication-group { margin: 27px 0 4px; font-size: 16px; font-weight: 650; color: var(--ink); }
 .publication { display: grid; grid-template-columns: 100px minmax(0,1fr); gap: 21px; padding: 23px 0; border-bottom: 1px solid var(--line); }
 .publication:last-child { border-bottom: 0; }
+:is(#Publication, #Preprints) .publication { grid-template-columns: 200px minmax(0,1fr); }
+#Publication .venue-label { width: 100px; max-width: 100%; }
+.publication-preview { display: flex; align-items: center; justify-content: center; align-self: center; width: 100%; aspect-ratio: 8 / 5; padding: 7px; border: 1px solid var(--line); border-radius: 6px; background: #fff; }
+.publication-preview img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.publication-preview:hover { border-color: var(--blue); }
+.oral-note { color: #9a4d2c; }
 .venue-label { align-self: start; text-align: center; border: 1px solid #dfe8f0; border-radius: 5px; background: var(--wash); color: var(--blue); padding: 10px 4px; font-size: 12px; line-height: 1.6; }
 .venue-label strong { display: block; font-size: 13px; }
 .venue-label .distinction { display: block; color: #9a4d2c; font-size: 11px; margin-top: 4px; }
@@ -77,6 +83,7 @@ summary { color: var(--blue); cursor: pointer; font-size: 13px; width: fit-conte
   .nav-links { gap: 8px 17px; }
   .nav-links a { font-size: 12px; }
   .page-layout { grid-template-columns: 205px minmax(0,1fr); gap: 35px; }
+  :is(#Publication, #Preprints) .publication { grid-template-columns: 160px minmax(0,1fr); }
 }
 @media (max-width: 760px) {
   html { scroll-padding-top: 118px; }
@@ -98,6 +105,14 @@ summary { color: var(--blue); cursor: pointer; font-size: 13px; width: fit-conte
   .publication { grid-template-columns: 80px minmax(0,1fr); gap: 16px; }
   .venue-label { font-size: 11px; }
   .venue-label strong { font-size: 12px; }
+}
+@media (min-width: 761px) and (max-width: 900px) {
+  :is(#Publication, #Preprints) .publication { grid-template-columns: 120px minmax(0,1fr); gap: 16px; }
+}
+@media (max-width: 600px) {
+  :is(#Publication, #Preprints) .publication { display: block; }
+  .publication-preview { max-width: 280px; margin-bottom: 16px; }
+  #Publication .venue-label { margin-bottom: 12px; }
 }
 @media (max-width: 420px) {
   body { font-size: 14px; }
