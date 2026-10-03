@@ -1,459 +1,284 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    	<title>Guoqing Wang's Homepage</title>
-	<style>
-		@media screen and (max-device-width: 600px){
-  			body{-webkit-text-size-adjust: none;}
-		}
-		p { font-size : 16px; }
-		h1 { padding : 0; margin : 0; font-size : 34px; }
-		h2 { font-size : 20px; margin : 0; padding : 0; }
-		h3 { font-size : 16px; margin : 0; padding : 0; }
-		body { padding : 0; font-family : Arial; font-size : 16px; background-color : #FFFFFF; }
-		.title { width : 650px; margin : 20px auto; }
-		.container { width : 800px; margin : 20px auto; border-radius: 10px;  background-color : #fff; padding : 20px;  clear:both;}
-		.bio {padding-top: 50px; }
-		.me { border : 0 solid black; margin-bottom : 50px; border-radius : 10px; }
-		.sidebar { margin-left : 50px; margin-right: 40px; border : 0 solid black; float: left; margin-bottom : 0;}
-		a { text-decoration : none; }
-		a:hover { text-decoration : underline; }
-		a, a:visited { color : #0050e7; }
-		.sectiontitle { width : 800px; margin : 10px auto 5px; background-color : #fff; 
-			padding : 10px;  clear:both; font-size: 18px; font-weight: bold; }
-		.sectioncontent { width : 800px; margin : auto auto; background-color : #fff; 
-			clear:both; font-size: 16px; font-weight: normal; }
-		.biocontent { width : 800px; margin : auto auto; background-color : #fff; 
-			clear:both; font-size: 16px; font-weight: normal; text-align:justify }
-		.publogo { width: 100 px; margin-right : 30px; margin-left : 30px; float : left; border : 0;}
-		.publication { clear : left; padding-bottom : 0px; }
-		.publication p { height : 100px; padding-top : 5px;}
-		.sectioncontent strong { color : rgb(40, 20, 100); font-size: 16px;}
-		.publication .links { position : relative; top : 15px }
-		.publication .links a { margin-right : 20px; }
-		.codelogo { margin-right : 10px; float : left; border : 0;}
-		.code { clear : left; padding-bottom : 10px; vertical-align :middle;} 
-		.code .download a { display : block; margin : 0 15px; float : left;}
-		.code strong a { color : #000; }
-		.external a { margin : 0 10px; }
-		.external a.first { margin : 0 10px 0 0; }
-	</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Guoqing Wang | Shanghai Jiao Tong University</title>
+  <meta name="description" content="Guoqing Wang, Ph.D. candidate at Shanghai Jiao Tong University. Research in generative AI, world models, multimodal learning, and 3D perception for autonomous driving.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://wgqtmac.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Guoqing Wang — Academic Homepage">
+  <meta property="og:description" content="Generative AI · World Models · Multimodal Learning · 3D Perception">
+  <meta property="og:url" content="https://wgqtmac.github.io/">
+  <meta property="og:image" content="https://wgqtmac.github.io/imgs/GuoqingWang.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/main.js" defer></script>
 </head>
+<body id="top">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="masthead">
+    <nav class="navigation" aria-label="Main navigation">
+      <a class="home-link" href="#top">Homepage</a>
+      <ul class="nav-links">
+        <li><a href="#Biograph">About Me</a></li>
+        <li><a href="#News">News</a></li>
+        <li><a href="#Publication">Publications</a></li>
+        <li><a href="#Education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#Honors_awards">Honors &amp; Awards</a></li>
+        <li><a href="#Services">Academic Services</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="page-layout">
+    <aside class="profile" aria-label="About Guoqing Wang">
+      <img class="portrait" src="imgs/GuoqingWang.jpg" alt="Guoqing Wang" width="295" height="413" fetchpriority="high">
+      <div class="profile-bio">
+        <h1>Guoqing Wang</h1>
+        <p class="role">Ph.D. Candidate</p>
+        <p class="affiliation"><strong>Shanghai Jiao Tong University</strong>Department of Computer Science<br>and Engineering</p>
+      </div>
+      <ul class="contact-list">
+        <li><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M13 6c0 4-5 8-5 8S3 10 3 6a5 5 0 0 1 10 0Z"/><circle cx="8" cy="6" r="1.6"/></svg><span>Shanghai, China</span></li>
+        <li><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="3" width="13" height="10" rx="1.5"/><path d="m2 4 6 4.5L14 4"/></svg><a href="mailto:guoqing.wang@sjtu.edu.cn">guoqing.wang@sjtu.edu.cn</a></li>
+        <li><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="3" width="13" height="10" rx="1.5"/><path d="m2 4 6 4.5L14 4"/></svg><a href="mailto:wgqtmac@gmail.com">wgqtmac@gmail.com</a></li>
+        <li><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="m1 6 7-3 7 3-7 3-7-3Zm3 2v4c2 2 6 2 8 0V8M15 6v6"/></svg><a href="https://scholar.google.com/citations?user=7KCoZK4AAAAJ&amp;hl=en">Google Scholar</a></li>
+        <li><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M6 14v-2c-3 .5-3-1-4-2m9 4v-3c0-1-.5-1.5-.5-1.5C14 9 14 5 12 4c.2-1 0-2 0-2-1 0-2 1-2 1H6S5 2 4 2c0 0-.2 1 0 2-2 1-2 5 1.5 5.5 0 0-.5.5-.5 1.5v3"/></svg><a href="https://github.com/wgqtmac">GitHub</a></li>
+        <li><svg class="icon" viewBox="0 0 16 16" aria-hidden="true"><path d="M4 14V2h4a3 3 0 0 1 0 6H4m4 0 4 6"/></svg><a href="https://www.researchgate.net/profile/Guoqing_Wang6">ResearchGate</a></li>
+      </ul>
+    </aside>
+    <main id="main-content">
+      <section id="Biograph" aria-labelledby="about-heading">
+        <h2 class="section-heading" id="about-heading"><span aria-hidden="true">👋</span> About Me</h2>
+        <p>I am a Ph.D. candidate at <strong>Shanghai Jiao Tong University (SJTU)</strong>, advised by <a href="https://vision.sjtu.edu.cn/">Prof. Chao Ma</a>. Previously, I worked as a researcher at Tencent from 2021 to 2022.</p>
+        <p>I received my M.S. degree from the University of Chinese Academy of Sciences (UCAS) and the Institute of Computing Technology (ICT), Chinese Academy of Sciences, in 2021, under the supervision of <a href="http://vipl.ict.ac.cn/people/~hhan">Prof. Hu Han</a>, <a href="http://vipl.ict.ac.cn/people/sgshan/">Prof. Shiguang Shan</a>, and <a href="http://vipl.ict.ac.cn/people/xlchen/">Prof. Xilin Chen</a>.</p>
+        <p>I have also collaborated closely with <a href="https://zhongdao.github.io/">Dr. Zhongdao Wang</a>, <a href="https://scholar.google.com/citations?user=au87GKsAAAAJ&amp;hl=en">Dr. Pin Tang</a>, <a href="https://scholar.google.com/citations?user=P20Rk5oAAAAJ&amp;hl=en">Dr. Xiangxuan Ren</a>, Dr. Jilai Zheng, and <a href="https://scholar.google.com/citations?user=OrbGCGkAAAAJ&amp;hl=zh-CN">Dr. Hao Lu</a>.</p>
+        <p>My research focuses on intelligent perception and generation, with applications in <strong>autonomous driving</strong>. My current interests include:</p>
+        <ul class="research-interests">
+          <li><strong>Generative AI &amp; World Models</strong></li>
+          <li><strong>Vision-Language &amp; Vision-Language-Action Models</strong></li>
+          <li><strong>3D Perception &amp; Autonomous Driving</strong></li>
+        </ul>
+      </section>
+      <section id="News" aria-labelledby="news-heading">
+        <h2 class="section-heading" id="news-heading"><span aria-hidden="true">🔥</span> News</h2>
+        <ul class="news-list">
+          <li><time datetime="2026-06">2026.06</time><div>Two papers on VLA and 3DGS are accepted by <strong>ECCV 2026</strong>.</div></li>
+          <li><time datetime="2026-03">2026.03</time><div>One paper on world model is accepted by <strong>ICME 2026 (Oral)</strong>.</div></li>
+          <li><time datetime="2026-02">2026.02</time><div>Two papers on VLM and VLA are accepted by <strong>CVPR 2026</strong>.</div></li>
+          <li><time datetime="2025-12">2025.12</time><div>One paper on 3D perception is accepted by <strong>IEEE TIP</strong>.</div></li>
+          <li><time datetime="2024-12">2024.12</time><div>One paper on 3D object detection for autonomous driving is accepted by <strong>AAAI 2025</strong>.</div></li>
+          <li><time datetime="2024-07">2024.07</time><div>Two papers on 3D occupancy prediction for autonomous driving are accepted by <strong>ECCV 2024</strong>.</div></li>
+        </ul>
+        <details class="news-archive">
+          <summary>Earlier news (2019–2024)</summary>
+          <ul class="news-list">
+          <li><time datetime="2024-02">2024.02</time><div>One paper on 3D occupancy prediction for autonomous driving is accepted by <strong>CVPR 2024</strong>.</div></li>
+          <li><time datetime="2023-11">2023.11</time><div>We rank first on the nuScenes occupancy prediction leaderboard (MetaGOD).</div></li>
+          <li><time datetime="2022-08">2022.08</time><div>I will pursue my Ph.D. degree at Shanghai Jiao Tong University.</div></li>
+          <li><time datetime="2021-10">2021.10</time><div>We are invited to give a talk in Valse Webinar <a href="https://www.bilibili.com/video/BV1ZQ4y1S7KG?spm_id_from=333.999.0.0">[video]</a>.</div></li>
+          <li><time datetime="2021-06">2021.06</time><div>I will work at Tencent as an algorithm researcher.</div></li>
+          <li><time datetime="2020-06">2020.06</time><div>One paper on cross-domain face presentation attack detection (PAD) is accepted by IEEE T-IFS.</div></li>
+          <li><time datetime="2020-04">2020.04</time><div>We receive the 11th place (Top 1%) of Alibaba Tianchi Object Detection challenge.</div></li>
+          <li><time datetime="2020-02">2020.02</time><div>One paper on cross-domain face presentation attack detection (PAD) is accepted by CVPR 2020.</div></li>
+          <li><time datetime="2019-04">2019.04</time><div>One paper on multi-modal face anti-spoofing is accepted by CVPR 2019 workshop.</div></li>
+          <li><time datetime="2019-03">2019.03</time><div>One paper on cross-domain face presentation attack detection (PAD) is accepted by ICB 2019.</div></li>
+          </ul>
+        </details>
+      </section>
+      <section id="Publication" aria-labelledby="publications-heading">
+        <h2 class="section-heading" id="publications-heading"><span aria-hidden="true">📝</span> Publications</h2>
+        <p class="section-note">Publications by research area · <a href="https://scholar.google.com/citations?user=7KCoZK4AAAAJ&amp;hl=en">Google Scholar ↗</a></p>
+        <h3 class="publication-group">Generative AI, World Models &amp; Multimodal Learning</h3>
+        <article class="publication">
+          <div class="venue-label"><strong>ECCV</strong><span>2026</span></div>
+          <div>
+            <h4>Targeted Structure Completion for Sparse-View 3D Reconstruction in Autonomous Driving</h4>
+            <p class="authors"><strong>Guoqing Wang</strong>, Pin Tang, Xiangxuan Ren, Liping Hou, Chao Ma</p>
+            <p class="venue-name">European Conference on Computer Vision (ECCV), 2026</p>
 
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>ECCV</strong><span>2026</span></div>
+          <div>
+            <h4>PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving</h4>
+            <p class="authors">Pin Tang, <strong>Guoqing Wang</strong>, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, Bailan Feng, Chao Ma</p>
+            <p class="venue-name">European Conference on Computer Vision (ECCV), 2026</p>
 
-<body>
-	<div class="title">
-		<div class="sidebar">
-			<img src="./imgs/GuoqingWang.jpg" id="me" itemprop="photo" vspace="20 px" width="150 px">
-		</div>
-		<div class = "bio">
-			<h1>
-				<span itemprop="name">Guoqing Wang</span>
-			</h1>
-			<p style="line-height:25px;">
-				<h2><br></h2>
-				<h2>Ph.D Candidate</h2>
-				<h3>Department of Computer Science and Engineering, Shanghai Jiao Tong University</h3>
-				<br>
-				<h3>Email: guoqing.wang[at]sjtu.edu.cn</h3>
-				<h3>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  wgqtmac[at]gmail.com</h3>
-			</p>
-			<p class="external">
-				<!-- <a href="./cv/CV.pdf" class="first">[CV]</a> -->
-				<a href="https://www.researchgate.net/profile/Guoqing_Wang6" class="first">[ResearchGate]</a> 
-            			<a href="https://scholar.google.com/citations?user=7KCoZK4AAAAJ&hl=en" class="first">[Google Scholar]</a> 
-				<a href="https://github.com/wgqtmac" class="first">[Github]</a> 
-			</p>
-		</div>
-	</div>
-	
-	<div id="Biograph" class="sectiontitle">
-		Biograph
-		<hr/>
-		<div name="biograph" id="shortbio" class="biocontent">
-			<p>
-			I am a Ph.D. candidate at Shanghai Jiao Tong University (SJTU) under the supervision of <a href="https://vision.sjtu.edu.cn/"> Prof. Chao Ma</a>. I have been a researcher at Tencent from 2021 to 2022. Before that, I received the joint M.S. degree with the University and Chinese Academy of Sciences (UCAS), and 
-			the Institute of Computing Technology (ICT), Chinese Academy of Sciences under the supervision of <a href="http://vipl.ict.ac.cn/people/~hhan"> Prof. Hu Han</a>, <a href="http://vipl.ict.ac.cn/people/sgshan/">Prof. Shiguang Shan</a>, and <a href="http://vipl.ict.ac.cn/people/xlchen/">Prof. Xilin Chen</a> in 2021. 
-			I also collaborated with <a href="https://zhongdao.github.io/">Dr. Zhongdao Wang</a>, <a href="https://scholar.google.com/citations?user=au87GKsAAAAJ&hl=en">Dr. Pin Tang</a>, <a href="https://scholar.google.com/citations?user=P20Rk5oAAAAJ&hl=en">Dr. Xiangxuan Ren</a>, Dr. Jilai Zheng, and 
-				<a href="https://scholar.google.com/citations?user=OrbGCGkAAAAJ&hl=zh-CN">Dr. Hao Lu</a> closely. Recently, my research interests include Generative AI, 3D perception, Vision-language Model, World Model, and their applications in Autonomous Driving.
-			</p> 
-		</div>
-	</div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>ICME</strong><span>2026</span><span class="distinction">Oral</span></div>
+          <div>
+            <h4><a href="https://occtrans.github.io">Exploring World Transitions via 3D Occupancy World Model</a></h4>
+            <p class="authors"><strong>Guoqing Wang</strong>, Pin Tang, Xiangxuan Ren, Chao Ma</p>
+            <p class="venue-name">IEEE International Conference on Multimedia and Expo (ICME), 2026</p>
+            <div class="paper-links"><a href="https://occtrans.github.io">Project</a></div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>CVPR Findings</strong><span>2026</span></div>
+          <div>
+            <h4><a href="https://arxiv.org/pdf/2604.09059">Learning Vision-Language-Action World Models for Autonomous Driving</a></h4>
+            <p class="authors"><strong>Guoqing Wang</strong>, Pin Tang, Xiangxuan Ren, Guodongfang Zhao, Bailan Feng, Chao Ma</p>
+            <p class="venue-name">Findings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026</p>
+            <div class="paper-links"><a href="https://arxiv.org/pdf/2604.09059">Paper</a><a href="https://vlaworld.github.io">Project</a></div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>CVPR</strong><span>2026</span></div>
+          <div>
+            <h4><a href="https://arxiv.org/pdf/2512.10554">Grounding Everything in Tokens for Multimodal Large Language Models</a></h4>
+            <p class="authors">Xiangxuan Ren, Zhongdao Wang, Liping Hou, Pin Tang, <strong>Guoqing Wang</strong>, Chao Ma</p>
+            <p class="venue-name">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026</p>
+            <div class="paper-links"><a href="https://arxiv.org/pdf/2512.10554">Paper</a><a href="https://getokpage.github.io">Project</a></div>
+          </div>
+        </article>
+        <h3 class="publication-group">3D Perception &amp; Autonomous Driving</h3>
+        <article class="publication">
+          <div class="venue-label"><strong>IEEE TIP</strong><span>2026</span></div>
+          <div>
+            <h4><a href="https://ieeexplore.ieee.org/document/11319338">Cross-modality Feature Aggregation for Cross-domain Point Cloud Representation Learning</a></h4>
+            <p class="authors"><strong>Guoqing Wang</strong>, Chao Ma, Xiaokang Yang</p>
+            <p class="venue-name">IEEE Transactions on Image Processing (TIP), 2026</p>
+            <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/11319338">Paper</a></div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>AAAI</strong><span>2025</span></div>
+          <div>
+            <h4><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32620">Towards Generalizable Multi-Camera 3D Object Detection via Perspective Rendering</a></h4>
+            <p class="authors">Hao Lu, Yunpeng Zhang, <strong>Guoqing Wang</strong>, Qing Lian, Dalong Du, YingCong Chen</p>
+            <p class="venue-name">Annual AAAI Conference on Artificial Intelligence (AAAI), 2025</p>
+            <div class="paper-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/32620">Paper</a><a href="https://github.com/EnVision-Research/Generalizable-BEV">Code</a></div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>ECCV</strong><span>2024</span></div>
+          <div>
+            <h4><a href="https://arxiv.org/pdf/2404.15014">OccGen: Generative Multi-modal 3D Occupancy Prediction for Autonomous Driving</a></h4>
+            <p class="authors"><strong>Guoqing Wang</strong>, Zhongdao Wang, Pin Tang, Jilai Zheng, Xiangxuan Ren, Bailan Feng, Chao Ma</p>
+            <p class="venue-name">European Conference on Computer Vision (ECCV), 2024</p>
+            <div class="paper-links"><a href="https://arxiv.org/pdf/2404.15014">Paper</a><a href="https://occgen-ad.github.io/">Project</a></div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>ECCV</strong><span>2024</span></div>
+          <div>
+            <h4><a href="https://arxiv.org/pdf/2407.12294">VEON: Vocabulary-Enhanced Occupancy Prediction</a></h4>
+            <p class="authors">Jilai Zheng, Pin Tang, Zhongdao Wang, <strong>Guoqing Wang</strong>, Xiangxuan Ren, Bailan Feng, Chao Ma</p>
+            <p class="venue-name">European Conference on Computer Vision (ECCV), 2024</p>
+            <div class="paper-links"><a href="https://arxiv.org/pdf/2407.12294">Paper</a><a href="https://github.com/VISION-SJTU/VEON">Code</a></div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>CVPR</strong><span>2024</span></div>
+          <div>
+            <h4><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Tang_SparseOcc_Rethinking_Sparse_Latent_Representation_for_Vision-Based_Semantic_Occupancy_Prediction_CVPR_2024_paper.pdf">SparseOcc: Rethinking Sparse Latent Representation for Vision-Based Semantic Occupancy Prediction</a></h4>
+            <p class="authors">Pin Tang, Zhongdao Wang, <strong>Guoqing Wang</strong>, Jilai Zheng, Xiangxuan Ren, Bailan Feng, Chao Ma</p>
+            <p class="venue-name">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024</p>
+            <div class="paper-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Tang_SparseOcc_Rethinking_Sparse_Latent_Representation_for_Vision-Based_Semantic_Occupancy_Prediction_CVPR_2024_paper.pdf">Paper</a><a href="https://pintang1999.github.io/sparseocc.html">Project</a><a href="https://github.com/VISION-SJTU/SparseOcc">Code</a></div>
+          </div>
+        </article>
+        <h3 class="publication-group">Representation Learning &amp; Face Anti-Spoofing</h3>
+        <article class="publication">
+          <div class="venue-label"><strong>IEEE TIFS</strong><span>2021</span></div>
+          <div>
+            <h4><a href="https://ieeexplore.ieee.org/document/9116802">Unsupervised Adversarial Domain Adaptation for Cross-domain Face Presentation Attack Detection</a></h4>
+            <p class="authors"><strong>Guoqing Wang</strong>, Hu Han, Shiguang Shan, Xilin Chen</p>
+            <p class="venue-name">IEEE Transactions on Information Forensics and Security (TIFS), 2021</p>
+            <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/9116802">Paper</a><a href="https://github.com/wgqtmac/DR-UDA">Code</a></div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>CVPR</strong><span>2020</span></div>
+          <div>
+            <h4><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Cross-Domain_Face_Presentation_Attack_Detection_via_Multi-Domain_Disentangled_Representation_Learning_CVPR_2020_paper.pdf">Cross-domain Face Presentation Attack Detection via Multi-domain Disentangled Representation Learning</a></h4>
+            <p class="authors"><strong>Guoqing Wang</strong>, Hu Han, Shiguang Shan, Xilin Chen</p>
+            <p class="venue-name">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020</p>
+            <div class="paper-links"><a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Cross-Domain_Face_Presentation_Attack_Detection_via_Multi-Domain_Disentangled_Representation_Learning_CVPR_2020_paper.pdf">Paper</a></div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>CVPRW</strong><span>2019</span></div>
+          <div>
+            <h4><a href="https://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Wang_Multi-Modal_Face_Presentation_Attack_Detection_via_Spatial_and_Channel_Attentions_CVPRW_2019_paper.pdf">Multi-modal Face Presentation Attack Detection via Spatial and Channel Attentions</a></h4>
+            <p class="authors"><strong>Guoqing Wang</strong>, Hu Han, Shiguang Shan, Xilin Chen</p>
+            <p class="venue-name">IEEE Conference on Computer Vision and Pattern Recognition (CVPR) workshop, 2019</p>
+            <div class="paper-links"><a href="https://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Wang_Multi-Modal_Face_Presentation_Attack_Detection_via_Spatial_and_Channel_Attentions_CVPRW_2019_paper.pdf">Paper</a><a href="https://github.com/wgqtmac/MultiModalPAD">Code</a></div>
+          </div>
+        </article>
+        <article class="publication">
+          <div class="venue-label"><strong>ICB</strong><span>2019</span></div>
+          <div>
+            <h4><a href="https://ieeexplore.ieee.org/document/8987254">Improving Cross-database Face Presentation Attack Detection via Adversarial Domain Adaptation</a></h4>
+            <p class="authors"><strong>Guoqing Wang</strong>, Hu Han, Shiguang Shan, Xilin Chen</p>
+            <p class="venue-name">IAPR International Conference on Biometrics (ICB), 2019</p>
+            <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/8987254">Paper</a><a href="https://github.com/wgqtmac/DR-UDA">Code</a></div>
+          </div>
+        </article>
 
-	<div id="Education" class="sectiontitle">
-		Education
-		<hr/>
-		<div name="education" id="shortedu" class="biocontent">
-			<dl>
-          
-            <dt>
-                <img align="left" width="80" height="80" hspace="10" src="./imgs/sjtu.png" />
-            </dt>
-	    <dt>
-                <font size="4"><b>Shanghai Jiao Tong University</b></font>
-            </dt>
-            <dt>
-                <i>September 2022 - </i>
-            </dt>
-            <dt>
-                Ph.D in Computer Science and Technology
-            </dt>
-	    <dt>
-                Department of Computer Science and Engineering
-            </dt>
-
-            <br />
-	    
-	    <dt>
-                <img align="left" width="80" height="80" hspace="10" src="./imgs/cas.png" />
-            </dt>
-	    <dt>
-                <font size="4"><b>Uninversity and Chinese Academy of Sciences</b></font>
-            </dt>
-            <dt>
-                <i>August 2018 - July 2021</i>
-            </dt>
-            <dt>
-                Master in Computer Technology
-            </dt>
-	    <dt>
-                Institute of Computing Technology.
-            </dt>
-	    <!--
-	    <br />
-	    <dt>
-                <img align="left" width="80" height="80" hspace="10" src="./imgs/ncepu.png" />
-            </dt>
-	    <dt>
-                <font size="4"><b>North China Electric Power University</b></font>
-            </dt>
-            <dt>
-                <i>August 2012 - July 2016</i>
-            </dt>
-            <dt>
-                Bachelor in Computer Science and Technology
-            </dt>
-	    <dt>
-                Department of Computer Science and Engineering.
-            </dt>
-	    -->
-	  
-        </dl>
-		</div>
-	</div>
-	
-	
-	
-	<div id="News" class="sectiontitle">
-		News
-		<hr/>
-		<div name="news" id="news_content" class="sectioncontent">
-			<p><ul>
-			<li>06/2026, two papers on VLA and 3DGS are accepted by ECCV2026. </li>
-			<li>03/2026, one paper on world model is accepted by ICME2026 (Oral). </li>
-			<li>02/2026, two papers on VLM and VLA are accepted by CVPP2026. </li>
-			<li>12/2025, one paper on 3D perception is accepted by IEEE TIP. </li>
-			<li>12/2024, one paper on 3D object detection for autonomous driving is accepted by AAAI2025. </li>
-			<li>07/2024, two papers on 3D occupancy prediction for autonomous driving is accepted by ECCV2024. </li>
-			<li>02/2024, one paper on 3D occupancy prediction for autonomous driving is accepted by CVPR2024. </li>
-			<li>11/2023, we rank first on the nuScenes occupancy prediction leaderboard (MetaGOD). </li>
-			<li>08/2022, I will pursue my Ph.D. degree at Shanghai Jiao Tong University. </li>
-			<li>10/2021, we are invited to give a talk in Valse Webinar <a href="https://www.bilibili.com/video/BV1ZQ4y1S7KG?spm_id_from=333.999.0.0">[video]</a>.</li>
-			<li>06/2021, I will work at Tencent as an algorithm researcher. </li>
-			<li>06/2020, one paper on cross-domain face presentation attack detection (PAD) is accepted by IEEE T-IFS. </li>
-			<li>04/2020, we receive the 11nd place (Top 1%) of Alibaba Tianchi Object Detection challenge. </li>
-			<li>02/2020, one paper on cross-domain face presentation attack detection (PAD) is accepted by CVPR2020 </li>
-			<li>04/2019, One paper on multi-modal face anti-spoofing accepted by CVPR 2019 workshop. </li>
-			<li>03/2019, One paper on cross-domain face presentation attack detection (PAD) accepted by ICB2019. </li>
-			</ul></p> 
-		</div>
-	</div>
-
-	<div id="Preprints" class="sectiontitle">
-		Preprints
-		<hr/>
-		<div name="publication" id="news_content" class="sectioncontent">
-			<p><ul>
-			<li>	
-				<strong>
-				Scaling Multi-Camera 3D Object Detection through Weak-to-Strong Eliciting.
-				</strong>
-				<br/>
-				Hao Lu, Jiaqi Tang, Xinli Xu, Xu Cao, Yunpeng Zhang, <b>Guoqing Wang</b>, Dalong Du, Hao Chen, Yingcong Chen
-				<br/>
-				<em>arxiv:2404.06700</em>
-				<br/>
-				<a href="https://arxiv.org/abs/2404.06700">[paper]</a>
-			</li>
-			
-			</ul></p> 
-		</div>
-	</div>
-
-	<div id="Publication" class="sectiontitle">
-		Publications
-		<hr/>
-		<div name="publication" id="news_content" class="sectioncontent">
-			<p><ul>
-			<li>	
-				<strong>
-				Targeted Structure Completion for Sparse-View 3D Reconstruction in Autonomous Driving
-				</strong>
-				<br/>
-				<b>Guoqing Wang</b>, Pin Tang, Xiangxuan Ren, Liping Hou, Chao Ma 
-				<br/>
-				<em>European Conference on Computer Vision (ECCV), 2026</em>
-				<br/>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				PixelPilot: Scalable Vision-Language-Action Models for End-to-End Autonomous Driving
-				</strong>
-				<br/>
-				Pin Tang, <b>Guoqing Wang</b>, Xiangxuan Ren, Zhongdao Wang, Guodongfang Zhao, Bailan Feng, Chao Ma 
-				<br/>
-				<em>European Conference on Computer Vision (ECCV), 2026</em>
-				<br/>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				Exploring World Transitions via 3D Occupancy World Model
-				</strong>
-				<br/>
-				<b>Guoqing Wang</b>, Pin Tang, Xiangxuan Ren, Chao Ma 
-				<br/>
-				<em>IEEE International Conference on Multimedia and Expo (ICME), 2026</em>
-				<br/>
-				<a href="https://arxiv.org/pdf">[paper]</a>
-				<a href="https://occtrans.github.io">[project]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				Learning Vision-Language-Action World Models for Autonomous Driving
-				</strong>
-				<br/>
-				<b>Guoqing Wang</b>, Pin Tang, Xiangxuan Ren, Guodongfang Zhao, Bailan Feng, Chao Ma 
-				<br/>
-				<em>Findings of IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em>
-				<br/>
-				<a href="https://arxiv.org/pdf/2604.09059">[paper]</a>
-				<a href="https://vlaworld.github.io">[project]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				Grounding Everything in Tokens for Multimodal Large Language Models
-				</strong>
-				<br/>
-				Xiangxuan Ren, Zhongdao Wang, Liping Hou, Pin Tang, <b>Guoqing Wang</b>, Chao Ma
-				<br/>
-				<em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em>
-				<br/>
-				<a href="https://arxiv.org/pdf/2512.10554">[paper]</a>
-				<a href="https://getokpage.github.io">[project]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				Cross-modality Feature Aggregation for Cross-domain Point Cloud Representation Learning
-				</strong>
-				<br/>
-				<b>Guoqing Wang</b>, Chao Ma, Xiaokang Yang 
-				<br/>
-				<em>IEEE transactions on image processing (TIP), 2026</em>
-				<br/>
-				<a href="https://ieeexplore.ieee.org/document/11319338">[paper]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				Towards Generalizable Multi-Camera 3D Object Detection via Perspective Rendering
-				</strong>
-				<br/>
-				Hao Lu, Yunpeng Zhang, <b>Guoqing Wang</b>, Qing Lian, Dalong Du, YingCong Chen 
-				<br/>
-				<em>Annual AAAI Conference on Artificial Intelligence (AAAI), 2025</em>
-				<br/>
-				<a href="https://ojs.aaai.org/index.php/AAAI/article/view/32620">[paper]</a>
-				<a href="https://github.com/EnVision-Research/Generalizable-BEV">[code]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				OccGen: Generative Multi-modal 3D Occupancy Prediction for Autonomous Driving
-				</strong>
-				<br/>
-				<b>Guoqing Wang</b>, Zhongdao Wang, Pin Tang, Jilai Zheng, Xiangxuan Ren, Bailan Feng, Chao Ma
-				<br/>
-				<em>European Conference on Computer Vision (ECCV), 2024.</em>
-				<br/>
-				<a href="https://arxiv.org/pdf/2404.15014">[paper]</a>
-				<a href="https://occgen-ad.github.io/">[project]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				VEON: Vocabulary-Enhanced Occupancy Prediction
-				</strong>
-				<br/>
-				Jilai Zheng, Pin Tang, Zhongdao Wang, <b>Guoqing Wang</b>, Xiangxuan Ren, Bailan Feng, Chao Ma
-				<br/>
-				<em>European Conference on Computer Vision (ECCV), 2024.</em>
-				<br/>
-				<a href="https://arxiv.org/pdf/2407.12294">[paper]</a>
-				<a href="https://github.com/VISION-SJTU/VEON">[code]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				SparseOcc: Rethinking Sparse Latent Representation for Vision-Based Semantic Occupancy Prediction
-				</strong>
-				<br/>
-				Pin Tang, Zhongdao Wang, <b>Guoqing Wang</b>, Jilai Zheng, Xiangxuan Ren, Bailan Feng, Chao Ma
-				<br/>
-				<em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</em>
-				<br/>
-				<a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Tang_SparseOcc_Rethinking_Sparse_Latent_Representation_for_Vision-Based_Semantic_Occupancy_Prediction_CVPR_2024_paper.pdf">[paper]</a>
-				<a href="https://pintang1999.github.io/sparseocc.html">[project]</a>
-				<a href="https://github.com/VISION-SJTU/SparseOcc">[code]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				Unsupervised Adversarial Domain Adaptation for Cross-domain Face Presentation Attack Detection
-				</strong>
-				<br/>
-				<b>Guoqing Wang</b>, Hu Han, Shiguang Shan, Xilin Chen
-				<br/>
-				<em>IEEE Transactions on Information Forensics and Security (TIFS), 2021.</em>
-				<br/>
-				<a href="https://ieeexplore.ieee.org/document/9116802">[paper]</a>
-				<a href="https://github.com/wgqtmac/DR-UDA">[code]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				Cross-domain Face Presentation Attack Detection via Multi-domain Disentangled Representation Learning
-				</strong>
-				<br/>
-				<b>Guoqing Wang</b>, Hu Han, Shiguang Shan, Xilin Chen
-				<br/>
-				<em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2020.</em>
-				<br/>
-				<a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_Cross-Domain_Face_Presentation_Attack_Detection_via_Multi-Domain_Disentangled_Representation_Learning_CVPR_2020_paper.pdf">[paper]</a>
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				Multi-modal Face Presentation Attack Detection via Spatial and Channel Attentions
-				</strong>
-				<br/>
-				<b>Guoqing Wang</b>, Hu Han, Shiguang Shan, Xilin Chen
-				<br/>
-				<em>IEEE Conference on Computer Vision and Pattern Recognition (CVPR) workshop, 2019.</em>
-				<br/>
-				<a href="https://openaccess.thecvf.com/content_CVPRW_2019/papers/CFS/Wang_Multi-Modal_Face_Presentation_Attack_Detection_via_Spatial_and_Channel_Attentions_CVPRW_2019_paper.pdf">[paper]</a>
-				<a href="https://github.com/wgqtmac/MultiModalPAD">[code]</a>
-			
-			</li>
-			<br/>
-			<li>	
-				<strong>
-				Improving Cross-database Face Presentation Attack Detection via Adversarial Domain Adaptation
-				</strong>
-				<br/>
-				<b>Guoqing Wang</b>, Hu Han, Shiguang Shan, Xilin Chen
-				<br/>
-				<em>IAPR International Conference on Biometrics (ICB), 2019.</em>
-				<br/>
-				<a href='https://ieeexplore.ieee.org/document/8987254'>[paper]</a>
-				<a href="https://github.com/wgqtmac/DR-UDA">[code]</a>
-			</li>
-			
-			</ul></p> 
-		</div>
-	</div>
-
-	<div id="experience" class="sectiontitle">
-		Experience
-		<hr/>
-		<div name="experience" id="shortedu" class="biocontent">
-			<dl>
-	    <dt>
-                <img align="left" width="70" height="60" hspace="10" src="./imgs/huawei.jpeg" />
-            </dt>
-	    <dt>
-                <font size="4"><b>Huawei | Noah's Ark Lab, Shanghai, China</b></font>
-            </dt>
-            <dt>
-                Research Intern, December 2023 - Now
-            </dt>
-	    <dt>
-                Topic: Autonomous Driving, Generative AI, Vision Language Model 
-            </dt>
-	
-	    <br />    			
-
-	
-            <dt>
-                <img align="left" width="75" height="70" hspace="10" src="./imgs/tencent.png" />
-            </dt>
-	    <dt>
-                <font size="4"><b>Tencent, Beijing, China</b></font>
-            </dt>
-            <dt>
-                Researcher, July 2021 - Aug 2022
-            </dt>
-	    <dt>
-                Topic: Video Understanding/Retrieval, 2D Perception.
-            </dt>
-	
-	    <br />
-
-            <dt>
-                <img align="left" width="70" height="65" hspace="10" src="./imgs/pcl.png" />
-            </dt>
-            <dt>
-                <font size="4"><b>Peng Cheng Laboratory, Shenzhen, China</b></font>
-            </dt>
-            <dt>
-                Research Intern, September 2020 - January 2021
-            </dt>
-	    <dt>
-                Topic: Domain Generalization, Face Recognition.
-            </dt>		
-        </dl>
-		</div>
-	</div>
-
-	<div id="Honors_awards" class="sectiontitle">
-		Honors & Awards
-		<hr/>
-		<div name="honors" id="news_content" class="sectioncontent">
-			<p><ul>
-			<li><b> Tencent Outstanding Contributor (Top 10%), 2022 H1</li>
-			<li><b> Tencent Good+ Contributor (Top 10%), 2021 H2</li>
-			<li><b>	Nomination for the Chinese Academy of Sciences President Award, 2020</li>
-			<li><b> Alibaba Tianchi Object Detection Challenge (Top 1%, 11 th / 2990), 2020</li>
-			<li><b>CVPR2020 Face PAD Challenge ( 9th / 46 ), 2020</li>	
-			<li><b>CVPR2019 Multi-modal Face PAD Challenge ( 9th / 553 ), 2019</li>		
-			<li><b>Merit Student (UCAS), 2020</li>	
-			</ul></p> 
-		</div>
-	</div>
-	<div id="Services" class="sectiontitle">
-		Academic Services
-		<hr/>
-		<div name="service" id="news_content" class="sectioncontent">
-			<p><ul>
-			<li><b>Invited reviewers for CVPR/ICCV/ECCV/AAAI/IJCB/ICPR/IScIDE/IEEE T-IP/T-IFS/IEEE T-CSVT/IEEE T-AI/Pattern Recognition/ACM TIST/Information Fusion/IEEE Access...</li>	
-			</ul></p> 
-		</div>
-	</div>
+      </section>
+      <section id="Preprints" aria-labelledby="preprints-heading">
+        <h2 class="section-heading" id="preprints-heading"><span aria-hidden="true">📑</span> Preprints</h2>
+        <article class="publication">
+          <div class="venue-label"><strong>Preprint</strong><span>2024</span></div>
+          <div>
+            <h3><a href="https://arxiv.org/abs/2404.06700">Scaling Multi-Camera 3D Object Detection through Weak-to-Strong Eliciting</a></h3>
+            <p class="authors">Hao Lu, Jiaqi Tang, Xinli Xu, Xu Cao, Yunpeng Zhang, <strong>Guoqing Wang</strong>, Dalong Du, Hao Chen, Yingcong Chen</p>
+            <p class="venue-name">arxiv:2404.06700</p>
+            <div class="paper-links"><a href="https://arxiv.org/abs/2404.06700">Paper</a></div>
+          </div>
+        </article>
+      </section>
+      <section id="Education" aria-labelledby="education-heading">
+        <h2 class="section-heading" id="education-heading"><span aria-hidden="true">🎓</span> Education</h2>
+        <article class="experience-item">
+          <img class="institution-logo" src="imgs/sjtu.png" alt="SJTU emblem" width="62" height="62" loading="lazy">
+          <div><h3>Shanghai Jiao Tong University</h3><p class="dates">September 2022 – Present</p><p>Ph.D. in Computer Science and Technology</p><p>Department of Computer Science and Engineering</p></div>
+        </article>
+        <article class="experience-item">
+          <img class="institution-logo" src="imgs/cas.png" alt="Chinese Academy of Sciences emblem" width="62" height="62" loading="lazy">
+          <div><h3>University of Chinese Academy of Sciences</h3><p class="dates">August 2018 – July 2021</p><p>M.S. in Computer Technology</p><p>Institute of Computing Technology, Chinese Academy of Sciences</p></div>
+        </article>
+      </section>
+      <section id="experience" aria-labelledby="experience-heading">
+        <h2 class="section-heading" id="experience-heading"><span aria-hidden="true">💻</span> Experience</h2>
+        <article class="experience-item">
+          <img class="institution-logo" src="imgs/huawei.jpeg" alt="Huawei logo" width="62" height="62" loading="lazy">
+          <div><h3>Huawei · Noah’s Ark Lab</h3><p class="dates">Research Intern · December 2023 – Present · Shanghai, China</p><p>Autonomous Driving, Generative AI, Vision-Language Models</p></div>
+        </article>
+        <article class="experience-item">
+          <img class="institution-logo" src="imgs/tencent.png" alt="Tencent logo" width="62" height="62" loading="lazy">
+          <div><h3>Tencent</h3><p class="dates">Researcher · July 2021 – August 2022 · Beijing, China</p><p>Video Understanding and Retrieval, 2D Perception</p></div>
+        </article>
+        <article class="experience-item">
+          <img class="institution-logo" src="imgs/pcl.png" alt="Peng Cheng Laboratory logo" width="62" height="62" loading="lazy">
+          <div><h3>Peng Cheng Laboratory</h3><p class="dates">Research Intern · September 2020 – January 2021 · Shenzhen, China</p><p>Domain Generalization, Face Recognition</p></div>
+        </article>
+      </section>
+      <section id="Honors_awards" aria-labelledby="honors-heading">
+        <h2 class="section-heading" id="honors-heading"><span aria-hidden="true">🏅</span> Honors &amp; Awards</h2>
+        <ul class="awards-list">
+          <li><strong>Tencent Outstanding Contributor</strong> (Top 10%), 2022 H1</li>
+          <li><strong>Tencent Good+ Contributor</strong> (Top 10%), 2021 H2</li>
+          <li>Nomination for the Chinese Academy of Sciences President Award, 2020</li>
+          <li>Alibaba Tianchi Object Detection Challenge — <strong>Top 1% (11th / 2,990)</strong>, 2020</li>
+          <li>CVPR 2020 Face PAD Challenge — 9th / 46, 2020</li>
+          <li>CVPR 2019 Multi-modal Face PAD Challenge — 9th / 553, 2019</li>
+          <li>Merit Student, UCAS, 2020</li>
+        </ul>
+      </section>
+      <section id="Services" aria-labelledby="services-heading">
+        <h2 class="section-heading" id="services-heading"><span aria-hidden="true">📚</span> Academic Services</h2>
+        <p class="service-line"><strong>Conference Reviewer</strong>CVPR, ICCV, ECCV, AAAI, IJCB, ICPR, IScIDE</p>
+        <p class="service-line"><strong>Journal Reviewer</strong>IEEE TIP, IEEE TIFS, IEEE TCSVT, IEEE TAI, Pattern Recognition, ACM TIST, Information Fusion, IEEE Access</p>
+      </section>
+      <footer class="footer"><span>© Guoqing Wang</span><a href="#top">Back to top ↑</a></footer>
+    </main>
+  </div>
 </body>
 </html>
