@@ -70,6 +70,7 @@ summary { color: var(--blue); cursor: pointer; font-size: 13px; width: fit-conte
 .paper-links a:hover { background: var(--wash); border-color: var(--blue); text-decoration: none; }
 .experience-item { display: grid; grid-template-columns: 62px minmax(0,1fr); gap: 22px; align-items: center; margin: 24px 0; }
 .institution-logo { width: 62px; height: 62px; object-fit: contain; }
+.v2fun-logo { background: #141414; border-radius: 6px; padding: 5px; }
 .experience-item h3 { font-size: 16px; line-height: 1.5; margin: 0 0 3px; }
 .experience-item p { margin: 2px 0; font-size: 13px; }
 .dates { color: var(--muted); font-size: 12px !important; }
